@@ -2,15 +2,15 @@
 
 //addEventListener, para decirle que en el evento click debe mostrar la funcion necesaria
 document.getElementById("btn_registrarse").addEventListener("click", registrar);
-document.getElementById("btn_iniciar-sesion").addEventListener("click", inicioSesion);
+document.getElementById("btn_login").addEventListener("click", inicioSesion);
 document.getElementById("btn_clientes").addEventListener("click", IngresoClientes);
 
 
 //Declaro las variables que utilizare
 let contenedor = document.querySelector(".Login_Registro");
-let formulario_login =  document.querySelector(".formulario__login");
-let formulario_registro = document.querySelector(".formulario__registro");
-let formulario_clientes = document.querySelector(".formulario__Clientes");
+let formulario_login =  document.querySelector(".FormularioLogin");
+let formulario_registro = document.querySelector(".FormularioRegistro");
+let formulario_clientes = document.querySelector(".FormularioClientes");
 let parteFijaLogin = document.querySelector(".login");
 let parteFijaRegistro = document.querySelector(".registro");
 let parteFijaClientes = document.querySelector(".Clientes");

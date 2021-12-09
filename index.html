@@ -16,14 +16,16 @@
 
 <body>
     <main>
+        <!--Voy a agrupar en un solo contenedor todo-->
         <div class="contenedor_general">
 
+            <!--Esta es la parte de atras que permanecera inmovil siempre-->
             <div class="parte_fija">
 
                 <div class="login">
                     <h3>¿Tienes una cuenta activa?</h3>
                     <p>Inicia sesión para entrar a la página</p>
-                    <button id="btn_iniciar-sesion">Iniciar Sesión</button>
+                    <button id="btn_login">Iniciar Sesión</button>
                 </div>
 
                 <div class="registro">
@@ -39,10 +41,10 @@
                 </div>
             </div>
 
-            <!--Formulario de Login, registro e ingreso de clientes-->
+            <!--Formulario de Login, registro e ingreso de clientes, estos cambiaran dependiendo del boton que aprima-->
             <div class="Login_Registro">
                 <!--Login-->
-                <form action="" class="formulario__login">
+                <form action="" class="FormularioLogin">
                     <h2>Iniciar Sesión</h2>
                     <input type="email" placeholder="Correo Electronico" id="correo">
                     <input type="password" placeholder="Contraseña" id="password">
@@ -50,7 +52,7 @@
                 </form>
 
                 <!--Registro-->
-                <form action="" class="formulario__registro">
+                <form action="" class="FormularioRegistro">
                     <h2>Regístrarse</h2>
                     <input type="text" placeholder="Nombre completo" id="nombre">
                     <input type="email" placeholder="Correo Electronico" id="email">
@@ -60,7 +62,7 @@
                 </form>
 
                 <!--Ingreso Clientes-->
-                <form action="" class="formulario__Clientes">
+                <form action="" class="FormularioClientes">
                     <h2>Ingreso Clientes</h2>
                     <input type="text" placeholder="Nombre" id="nombreCliente">
                     <input type="text" placeholder="Apellidos" id="apellidoCliente">

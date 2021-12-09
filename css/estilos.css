@@ -34,6 +34,7 @@ main{
 }
 
 /*colocare un color para este contenedor, y lo colare en el centro*/
+/*.parte_fija, con esta dare estilo a la parte de atras de las cards que se mueven*/
 .parte_fija{
   width: 100%;
   padding: 10px 20px;
@@ -83,6 +84,7 @@ main{
   color: #ffffff;
 }
 
+/*.Login_Registro, para darle estilo a los form que voy a estar utilizando*/
 .Login_Registro{
   display: flex;
   align-items: center;
@@ -92,7 +94,7 @@ main{
   top: -185px;
   left: 10px;
 
-  /*La transicion va despues del codigo JS, es para darle un efecto mas suave a la transicion*/
+  /*Es para darle un efecto mas suave a la transicion*/
   transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 
@@ -135,17 +137,17 @@ main{
 
 
 
-.formulario__login{
+/*Para que se muestre y desaparezcan los formularios que estoy solicitando*/
+.FormularioLogin{
   opacity: 1;
   display: block;
 }
-.formulario__registro{
+.FormularioRegistro{
   display: none;
 }
 
-.formulario__Clientes{
+.FormularioClientes{
   opacity: 1;
- 
   display: none;
 
 }
